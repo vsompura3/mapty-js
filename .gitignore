@@ -15,6 +15,7 @@
 # dependencies
 /node_modules
 .vite/
+.vscode/
 .cache
 .parcel-cache
 /.pnp

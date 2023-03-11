@@ -191,6 +191,17 @@ a:visited {
   color: var(--color-light--2);
 }
 
+.github-link:link,
+.github-link:visited {
+  color: var(--color-light--1);
+  transition: all 0.2s;
+}
+
+.github-link:hover,
+.github-link:active {
+  color: var(--color-light--2);
+}
+
 /* MAP */
 #map {
   flex: 1;
@@ -219,4 +230,9 @@ a:visited {
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
+}
+
+.dev {
+  text-align: center;
+  font-size: 1.25rem;
 }
